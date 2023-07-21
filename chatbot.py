@@ -33,11 +33,11 @@ while 1:
         myPrompt.pop(4)
         myPrompt.pop(4)
         prompt =""
-        sayac = 0
+        counter = 0
  
         for sentence in myPrompt:
-            sayac+=1
-            if sayac == len(myPrompt):
+            counter+=1
+            if counter == len(myPrompt):
                 prompt += sentence
             else :
                 prompt += sentence + "\n"
